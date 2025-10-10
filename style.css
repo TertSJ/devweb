@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #185418;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px #a3d67f;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.divnome{
+    display: flex;
+    flex-direction: column;
+
+}
+.dividade{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    background-color: #ffffff;
+    color: rebeccapurple;
+}
+h1,h2{
+    color: blue;
+}
+
