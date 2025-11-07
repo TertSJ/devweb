@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wid-device-width , initial-scale=1.0">
+    <title>Formulário casdastro </title>
+    <link rel="stylesheet" href="aulax.css">
+</head>
+<body>
+    <div class="container">
+
+        <form id="cadastro">
+            <h2> Crie sua conta Agora</h2>
+            <div class="input-group">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" placeholder="Eduard" required>
+                <span class="erro-mensagem" id="erro-nome"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="sobreNome">SobreNome: </label>
+                <input type="text" name="sobrenome" id="sobrenome" minlength="2" placeholder="Elric" required>
+                <span class="erro-mensagem" id="erro-sobrenome"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="nickname">Nickname: </label>
+                <input type="text" name="nickname" id="nickname" placeholder="Apelido" required>
+                <span class="erro-mensagem" id="erro-nickname"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" placeholder="seuemail@gmail.com" required>
+                <span class="erro-mensagem" id="erro-email"></span>
+
+            </div>
+
+            <div class="input-group">
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" id="senha" placeholder="Mínimo 8 caracteres" required>
+                <span class="erro-mensagem" id="erro-senha"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="confirmarsenha">Confirmar Senha: </label>
+                <input type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Digite a senha novamente" required>
+                <span class="erro-mensagem" id="erro-confirmarsenha"></span>
+            </div>
+
+            <buttoSn type="submit">Cadastrar</button>
+            <p id="return-sucesso" class="sucesso-mensagem" style="display: none;"> Cadastro realizado com sucesso!</p>
+        </form>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
